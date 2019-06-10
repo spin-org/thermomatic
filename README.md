@@ -1,10 +1,14 @@
 # Thermomatic
 
+This code challenge may be completed on your own time. The challenge represent the kind of work we're doing at Spin. However, details are mostly fictional :)
+
+Fork this repo. When it's ready, please invite `jsierles` and `azazeal` for review.
+
 ## Preface
 
-As part of Spin's upcoming entry to the micro-farming industry you've been assigned the key task of creating a concurrent logging server for our next-gen over-the-ether thermometers!
+As part of Spin's upcoming entry to the microfarming industry, you've been assigned the task of creating a concurrent logging server for our next-gen, over-the-ether thermometers!
 
-These groundbreaking devices came into existence recently, and through the efforts of our RnD department, and have the singular purpose of broadcasting exact temperature (and other) readings from wherever they may be placed at.
+These groundbreaking devices have the singular purpose of broadcasting exact temperature (and other readings) from wherever they may be placed at.
 
 The way they work is simple:
 
@@ -70,7 +74,7 @@ record = "1257894000000000000,490154203237518,67.77,2.63555,33.41,44.4,0.2566\n"
 
 ## Things we expect to see
 
-- Meaningful (including _performance_) tests with great coverage.
+- Meaningful (including _performance_) tests with reasonable coverage.
 - Benchmarks.
 - Elimination of allocations wherever possible.
 - An effort to remain in the stack vs escaping to the heap.
@@ -83,7 +87,7 @@ record = "1257894000000000000,490154203237518,67.77,2.63555,33.41,44.4,0.2566\n"
 
 ## Bonus objectives
 
-If you feel like spending a bit more time on this challenge you may also extend your implementation to support the following HTTP GET endpoints:
+If you feel like spending a bit more time on this challenge, you may also extend your implementation to support the following HTTP GET endpoints:
 
 - `/stats`: returns a JSON document which contains runtime statistical information about the server (i.e. number of goroutines, bytes read per second, etc.).
 - `/readings/:imei`: if the device is online returns a JSON representation of the last reading the device has sent (timestamped)

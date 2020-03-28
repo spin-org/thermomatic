@@ -2,7 +2,7 @@
 
 This code challenge may be completed on your own time. The challenge represents the kind of work we're doing at Spin. However, details are mostly fictional :)
 
-Fork this repo. When it's ready, please invite `azazeal` for review.
+Fork this repo. When it's ready, please invite `richsposato` for review.
 
 ## Preface
 
